@@ -25,13 +25,17 @@
   padding-bottom: 2rem;
 }
 
-.mar-alto{
+.mar-alto {
   margin-top: 9rem;
   margin-bottom: 2rem;
 }
 
-.grey-background{
-  /* height: 70px; */
+/* .allinea{ */
+  line-height: 100px;
+}
+
+.paolo {
+  line-height: 50px;
   background: #2c3e50;
   color: white;
 }
@@ -54,9 +58,3 @@
   background: #1a252f;
   color:#fff;
 }
-/* ricontrollare quello sotto, forse non funziona */
-.form-inline .form-control {
-  display: inline-block;
-  width: auto;
-  vertical-align: middle;
-  }

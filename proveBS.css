@@ -1,0 +1,62 @@
+.green-background{
+  background: #18bc9c;
+  color: #fff;
+}
+
+.red{
+  background: red;
+}
+
+.portofolio{
+  margin: 5px;
+}
+
+/* .principe{
+  height: 100vh;
+} */
+
+.mar-medio{
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.pad-medio{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.mar-alto{
+  margin-top: 9rem;
+  margin-bottom: 2rem;
+}
+
+.grey-background{
+  /* height: 70px; */
+  background: #2c3e50;
+  color: white;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.btn-color{
+  background: #18bc9c;
+  color: #fff;
+  border: 2px solid white;
+}
+
+.copyright{
+  background: #1a252f;
+  color:#fff;
+}
+/* ricontrollare quello sotto, forse non funziona */
+.form-inline .form-control {
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
+  }

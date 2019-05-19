@@ -1,60 +1,181 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  'Montserrat', sans-serif;
+  color: #fff;
+}
+
+/*  top grigio*/
+
+.grey-background {
+  background: #2c3e50;
+  color: white;
+  padding: 10px 0;
+  }
+
+/*  main verde*/
+
 .green-background{
   background: #18bc9c;
   color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+.freelancer{
+  font-weight:1000;
+  font-size: 70px;
+}
+
+.uiux{
+  font-weight: 400;
+  font-size: 20px;
+}
+
+/*  portfolio */
+
+.portofolio{
+  margin: 10px;
+  padding: 10px;
+}
+
+.portfolio{
+  color:  #2c3e50;
+  background: #fff;
+  font-weight: 1000;
+  font-size: 40px;
+}
+
+/* about verde */
+
+.about{
+  background: #18bc9c;
+  color: #fff;
+  padding:10px;
+}
+
+.me{
+  color: #fff;
+  font-weight: 1000;
+  font-size: 40px;
+  margin: 20px;
+}
+
+/*  contact bianco*/
+
+/* footer grey */
+
+.piede{
+  background: #2c3e50;
+  color: white;
+  padding: 10px 0;
+}
+
+.icone > i{
+  border: 1px solid white;
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: 200;
+  padding:8px;
+}
+
+/* footer strong gray */
+
+.copyright{
+  background: #1a252f;
+  color:#fff;
+  height: 70px;
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* fine */
+
+
+
+ .menu-items{
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  font-weight: 30px;
+ }
+
+.fl-rg{
+  float: right;
+  }
+
+.strboo{
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+  .l-h50{
+   line-height: 50px;
+ }
 
 .red{
   background: red;
 }
 
-.portofolio{
-  margin: 5px;
+
+
+/* stelle */
+
+hr .star-dark:after, hr .star-light:after {
+    position: relative;
+    top: -.8em;
+    display: inline-block;
+    padding: 0 .25em;
+    content: '\f005';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 2em;
 }
 
-/* .principe{
-  height: 100vh;
-} */
-
-.mar-medio{
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+.mb-5, .my-5{
+    margin-bottom: 3rem!important;
 }
 
-.pad-medio{
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+hr.star-light {
+    max-width: 15rem;
+    padding: 0;
+    text-align: center;
+    border: none;
+    border-top: solid .25rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.mar-alto {
-  margin-top: 9rem;
-  margin-bottom: 2rem;
+hr.star-light:after {
+    color: #fff;
+    background-color: #18bc9c;
 }
+/* stelle */
 
-/* .allinea{ */
-  line-height: 100px;
-}
-
-.paolo {
-  line-height: 50px;
-  background: #2c3e50;
-  color: white;
-}
-
-.fixed-top {
+ .fixed-top {
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
     z-index: 1030;
-}
+ }
 
 .btn-color{
   background: #18bc9c;
   color: #fff;
   border: 2px solid white;
-}
-
-.copyright{
-  background: #1a252f;
-  color:#fff;
 }

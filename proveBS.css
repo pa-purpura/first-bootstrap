@@ -15,6 +15,28 @@
   padding: 10px 0;
   }
 
+  .hamburger{
+    font-size: 30px;
+    font-weight:300;
+  }
+
+.inline{
+  display: inline;
+}
+  .menu-items{
+   display: inline-block;
+   color: white;
+   font-size: 22px;
+   font-weight: 300;
+   margin:auto 5px;
+  }
+
+ .strboo{
+   color: white;
+   font-size: 26px;
+   font-weight: 600;
+ }
+
 /*  main verde*/
 
 .green-background{
@@ -25,6 +47,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.profile{
+  margin-top: 120px;
+
+}
+
+.star-light{
+  color: #fff;
+}
+
+.fa-centos{
+  font-size: 50px;
+  margin: 8px;
 }
 
 .freelancer{
@@ -51,6 +87,11 @@
   font-size: 40px;
 }
 
+.star-black{
+  color: #2c3e50;
+}
+
+
 /* about verde */
 
 .about{
@@ -68,12 +109,50 @@
 
 /*  contact bianco*/
 
+.contatti{
+  padding: 5px;
+}
+
+.contact{
+  margin: 20px;
+  font-size: 40px;
+  font-weight: 1000;
+  color: #2c3e50;
+}
+
+.cont-items{
+ margin:5px;
+ border-top: none;
+ border-left: none;
+ border-right: none;
+ border-bottom: 1px solid #2c3e50;
+ color: #2c3e50;
+ width: 70%;
+ height: 60px;
+ font-size: 30px;
+ font-weight: 400;
+}
+
+
+/* .mex-item{
+ margin:5px;
+ border-top: none;
+ border-left: none;
+ border-right: none;
+ border-bottom: 1px solid #2c3e50;
+ color: #2c3e50;
+ width: 50%;
+} */
+
+
+
+
 /* footer grey */
 
 .piede{
   background: #2c3e50;
   color: white;
-  padding: 10px 0;
+  padding: 50px 0;
 }
 
 .icone > i{
@@ -91,9 +170,9 @@
 .copyright{
   background: #1a252f;
   color:#fff;
-  height: 70px;
-  font-size: 20px;
-  font-weight: 400;
+  height: 55px;
+  font-size: 15px;
+  font-weight: 200;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -103,23 +182,9 @@
 /* fine */
 
 
-
- .menu-items{
-  display: inline-block;
-  color: white;
-  font-size: 20px;
-  font-weight: 30px;
- }
-
 .fl-rg{
   float: right;
   }
-
-.strboo{
-  color: white;
-  font-size: 20px;
-  font-weight: 300;
-}
 
   .l-h50{
    line-height: 50px;
@@ -178,4 +243,5 @@ hr.star-light:after {
   background: #18bc9c;
   color: #fff;
   border: 2px solid white;
+  margin:20px;
 }

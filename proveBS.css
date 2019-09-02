@@ -7,6 +7,11 @@
   color: #fff;
 }
 
+.layover{
+ position: absolute;
+  background: rgba(0, 0,0, 0.3);
+}
+
 /*  top grigio*/
 
 .grey-background {
@@ -47,6 +52,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10px;
+  padding-bottom: 30px;
 }
 
 .profile{
@@ -58,17 +65,25 @@
   color: #fff;
 }
 
-.fa-centos{
+.fa-star{
   font-size: 50px;
   margin: 8px;
 }
 
-.freelancer{
-  font-weight:1000;
-  font-size: 70px;
+.fa-centos{
+  font-size: 50px;
+  margin: 8px;
+}
+.MainItems{
+  margin: 5px;
 }
 
-.uiux{
+.title{
+  font-weight:600;
+  font-size: 50px;
+}
+
+.MainItems h3{
   font-weight: 400;
   font-size: 20px;
 }
